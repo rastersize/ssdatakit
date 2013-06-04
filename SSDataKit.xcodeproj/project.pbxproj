@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C29675D175D646600B9EB24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C29675C175D646600B9EB24 /* Foundation.framework */; };
+		9C29677C175D64A800B9EB24 /* NSManagedObjectContext+SSDataKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C29676B175D64A800B9EB24 /* NSManagedObjectContext+SSDataKitAdditions.m */; };
+		9C29677D175D64A800B9EB24 /* SSFilterableFetchedResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C29676D175D64A800B9EB24 /* SSFilterableFetchedResultsController.m */; };
+		9C29677E175D64A800B9EB24 /* SSFilteredResultsFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C29676F175D64A800B9EB24 /* SSFilteredResultsFilter.m */; };
+		9C29677F175D64A800B9EB24 /* SSFilteredResultsSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C296771175D64A800B9EB24 /* SSFilteredResultsSection.m */; };
+		9C296780175D64A800B9EB24 /* SSManagedCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C296773175D64A800B9EB24 /* SSManagedCollectionViewController.m */; };
+		9C296781175D64A800B9EB24 /* SSManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C296775175D64A800B9EB24 /* SSManagedObject.m */; };
+		9C296782175D64A800B9EB24 /* SSManagedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C296777175D64A800B9EB24 /* SSManagedTableViewController.m */; };
+		9C296783175D64A800B9EB24 /* SSManagedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C296779175D64A800B9EB24 /* SSManagedViewController.m */; };
+		9C296784175D64A800B9EB24 /* SSRemoteManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C29677B175D64A800B9EB24 /* SSRemoteManagedObject.m */; };
+		9C296787175D656D00B9EB24 /* SSManagedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C296778175D64A800B9EB24 /* SSManagedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C296788175D656D00B9EB24 /* SSFilterableFetchedResultsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C29676C175D64A800B9EB24 /* SSFilterableFetchedResultsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C296789175D656D00B9EB24 /* SSFilteredResultsFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C29676E175D64A800B9EB24 /* SSFilteredResultsFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C29678A175D656D00B9EB24 /* SSFilteredResultsSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C296770175D64A800B9EB24 /* SSFilteredResultsSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C29678B175D656D00B9EB24 /* SSManagedCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C296772175D64A800B9EB24 /* SSManagedCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C29678C175D656D00B9EB24 /* SSManagedTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C296776175D64A800B9EB24 /* SSManagedTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C29678D175D656D00B9EB24 /* NSManagedObjectContext+SSDataKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C29676A175D64A800B9EB24 /* NSManagedObjectContext+SSDataKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C29678E175D656D00B9EB24 /* SSManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C296774175D64A800B9EB24 /* SSManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C29678F175D656D00B9EB24 /* SSRemoteManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C29677A175D64A800B9EB24 /* SSRemoteManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C296759175D646600B9EB24 /* libSSDataKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSDataKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C29675C175D646600B9EB24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9C296760175D646600B9EB24 /* SSDataKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSDataKit-Prefix.pch"; sourceTree = "<group>"; };
+		9C296761175D646600B9EB24 /* SSDataKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSDataKit.h; sourceTree = "<group>"; };
+		9C29676A175D64A800B9EB24 /* NSManagedObjectContext+SSDataKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+SSDataKitAdditions.h"; sourceTree = "<group>"; };
+		9C29676B175D64A800B9EB24 /* NSManagedObjectContext+SSDataKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+SSDataKitAdditions.m"; sourceTree = "<group>"; };
+		9C29676C175D64A800B9EB24 /* SSFilterableFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFilterableFetchedResultsController.h; sourceTree = "<group>"; };
+		9C29676D175D64A800B9EB24 /* SSFilterableFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFilterableFetchedResultsController.m; sourceTree = "<group>"; };
+		9C29676E175D64A800B9EB24 /* SSFilteredResultsFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFilteredResultsFilter.h; sourceTree = "<group>"; };
+		9C29676F175D64A800B9EB24 /* SSFilteredResultsFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFilteredResultsFilter.m; sourceTree = "<group>"; };
+		9C296770175D64A800B9EB24 /* SSFilteredResultsSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFilteredResultsSection.h; sourceTree = "<group>"; };
+		9C296771175D64A800B9EB24 /* SSFilteredResultsSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFilteredResultsSection.m; sourceTree = "<group>"; };
+		9C296772175D64A800B9EB24 /* SSManagedCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSManagedCollectionViewController.h; sourceTree = "<group>"; };
+		9C296773175D64A800B9EB24 /* SSManagedCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSManagedCollectionViewController.m; sourceTree = "<group>"; };
+		9C296774175D64A800B9EB24 /* SSManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSManagedObject.h; sourceTree = "<group>"; };
+		9C296775175D64A800B9EB24 /* SSManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSManagedObject.m; sourceTree = "<group>"; };
+		9C296776175D64A800B9EB24 /* SSManagedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSManagedTableViewController.h; sourceTree = "<group>"; };
+		9C296777175D64A800B9EB24 /* SSManagedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSManagedTableViewController.m; sourceTree = "<group>"; };
+		9C296778175D64A800B9EB24 /* SSManagedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSManagedViewController.h; sourceTree = "<group>"; };
+		9C296779175D64A800B9EB24 /* SSManagedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSManagedViewController.m; sourceTree = "<group>"; };
+		9C29677A175D64A800B9EB24 /* SSRemoteManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRemoteManagedObject.h; sourceTree = "<group>"; };
+		9C29677B175D64A800B9EB24 /* SSRemoteManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRemoteManagedObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C296756175D646600B9EB24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C29675D175D646600B9EB24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C296750175D646600B9EB24 = {
+			isa = PBXGroup;
+			children = (
+				9C29675E175D646600B9EB24 /* SSDataKit */,
+				9C29675B175D646600B9EB24 /* Frameworks */,
+				9C29675A175D646600B9EB24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C29675A175D646600B9EB24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C296759175D646600B9EB24 /* libSSDataKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C29675B175D646600B9EB24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C29675C175D646600B9EB24 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C29675E175D646600B9EB24 /* SSDataKit */ = {
+			isa = PBXGroup;
+			children = (
+				9C296785175D651D00B9EB24 /* View Controllers */,
+				9C29676A175D64A800B9EB24 /* NSManagedObjectContext+SSDataKitAdditions.h */,
+				9C29676B175D64A800B9EB24 /* NSManagedObjectContext+SSDataKitAdditions.m */,
+				9C296774175D64A800B9EB24 /* SSManagedObject.h */,
+				9C296775175D64A800B9EB24 /* SSManagedObject.m */,
+				9C29677A175D64A800B9EB24 /* SSRemoteManagedObject.h */,
+				9C29677B175D64A800B9EB24 /* SSRemoteManagedObject.m */,
+				9C296761175D646600B9EB24 /* SSDataKit.h */,
+				9C29675F175D646600B9EB24 /* Supporting Files */,
+			);
+			path = SSDataKit;
+			sourceTree = "<group>";
+		};
+		9C29675F175D646600B9EB24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C296760175D646600B9EB24 /* SSDataKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C296785175D651D00B9EB24 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C296778175D64A800B9EB24 /* SSManagedViewController.h */,
+				9C296779175D64A800B9EB24 /* SSManagedViewController.m */,
+				9C29676C175D64A800B9EB24 /* SSFilterableFetchedResultsController.h */,
+				9C29676D175D64A800B9EB24 /* SSFilterableFetchedResultsController.m */,
+				9C29676E175D64A800B9EB24 /* SSFilteredResultsFilter.h */,
+				9C29676F175D64A800B9EB24 /* SSFilteredResultsFilter.m */,
+				9C296770175D64A800B9EB24 /* SSFilteredResultsSection.h */,
+				9C296771175D64A800B9EB24 /* SSFilteredResultsSection.m */,
+				9C296772175D64A800B9EB24 /* SSManagedCollectionViewController.h */,
+				9C296773175D64A800B9EB24 /* SSManagedCollectionViewController.m */,
+				9C296776175D64A800B9EB24 /* SSManagedTableViewController.h */,
+				9C296777175D64A800B9EB24 /* SSManagedTableViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9C296786175D656300B9EB24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C296787175D656D00B9EB24 /* SSManagedViewController.h in Headers */,
+				9C296788175D656D00B9EB24 /* SSFilterableFetchedResultsController.h in Headers */,
+				9C296789175D656D00B9EB24 /* SSFilteredResultsFilter.h in Headers */,
+				9C29678A175D656D00B9EB24 /* SSFilteredResultsSection.h in Headers */,
+				9C29678B175D656D00B9EB24 /* SSManagedCollectionViewController.h in Headers */,
+				9C29678C175D656D00B9EB24 /* SSManagedTableViewController.h in Headers */,
+				9C29678D175D656D00B9EB24 /* NSManagedObjectContext+SSDataKitAdditions.h in Headers */,
+				9C29678E175D656D00B9EB24 /* SSManagedObject.h in Headers */,
+				9C29678F175D656D00B9EB24 /* SSRemoteManagedObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9C296758175D646600B9EB24 /* SSDataKit iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C296767175D646600B9EB24 /* Build configuration list for PBXNativeTarget "SSDataKit iOS" */;
+			buildPhases = (
+				9C296755175D646600B9EB24 /* Sources */,
+				9C296756175D646600B9EB24 /* Frameworks */,
+				9C296786175D656300B9EB24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSDataKit iOS";
+			productName = SSDataKit;
+			productReference = 9C296759175D646600B9EB24 /* libSSDataKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C296751175D646600B9EB24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sam Soffes";
+			};
+			buildConfigurationList = 9C296754175D646600B9EB24 /* Build configuration list for PBXProject "SSDataKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C296750175D646600B9EB24;
+			productRefGroup = 9C29675A175D646600B9EB24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C296758175D646600B9EB24 /* SSDataKit iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C296755175D646600B9EB24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C29677C175D64A800B9EB24 /* NSManagedObjectContext+SSDataKitAdditions.m in Sources */,
+				9C29677D175D64A800B9EB24 /* SSFilterableFetchedResultsController.m in Sources */,
+				9C29677E175D64A800B9EB24 /* SSFilteredResultsFilter.m in Sources */,
+				9C29677F175D64A800B9EB24 /* SSFilteredResultsSection.m in Sources */,
+				9C296780175D64A800B9EB24 /* SSManagedCollectionViewController.m in Sources */,
+				9C296781175D64A800B9EB24 /* SSManagedObject.m in Sources */,
+				9C296782175D64A800B9EB24 /* SSManagedTableViewController.m in Sources */,
+				9C296783175D64A800B9EB24 /* SSManagedViewController.m in Sources */,
+				9C296784175D64A800B9EB24 /* SSRemoteManagedObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C296765175D646600B9EB24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SS_PRODUCT_BASE_NAME = SSDataKit;
+			};
+			name = Debug;
+		};
+		9C296766175D646600B9EB24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				SS_PRODUCT_BASE_NAME = SSDataKit;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C296768175D646600B9EB24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SSDataKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSDataKit/SSDataKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(SS_PRODUCT_BASE_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/$PRODUCT_NAME;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9C296769175D646600B9EB24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SSDataKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSDataKit/SSDataKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(SS_PRODUCT_BASE_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/$PRODUCT_NAME;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C296754175D646600B9EB24 /* Build configuration list for PBXProject "SSDataKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C296765175D646600B9EB24 /* Debug */,
+				9C296766175D646600B9EB24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C296767175D646600B9EB24 /* Build configuration list for PBXNativeTarget "SSDataKit iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C296768175D646600B9EB24 /* Debug */,
+				9C296769175D646600B9EB24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C296751175D646600B9EB24 /* Project object */;
+}
